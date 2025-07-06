@@ -1,100 +1,10 @@
+<!-- Página Inicial com carrossel e destaques -->
 <!DOCTYPE html>
-<html lang="pt-BR">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>CNFVB - Confederação Nevense de Futebol de Várzea Base</title>
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
-  <style>
-    body { margin: 0; font-family: 'Roboto', sans-serif; background-color: #f9f9f9; color: #111; }
-    header { background-color: #b50000; color: white; padding: 20px; display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; }
-    header img { height: 80px; }
-    header h1 { font-size: 24px; margin: 0; }
-    nav a { color: white; margin-left: 20px; text-decoration: none; font-weight: bold; }
-    nav { display: flex; flex-wrap: wrap; }
-    .section { padding: 40px 20px; max-width: 1000px; margin: auto; }
-    .section h2 { border-left: 5px solid #b50000; padding-left: 10px; color: #222; }
-    .clubes { display: flex; flex-wrap: wrap; gap: 20px; justify-content: center; }
-    .clube { text-align: center; width: 200px; }
-    .clube img { width: 100%; max-width: 150px; }
-    footer { background-color: #111; color: white; text-align: center; padding: 20px; font-size: 14px; }
-    .social { margin-top: 10px; }
-    .social a { margin: 0 10px; color: white; text-decoration: none; }
-    form { display: flex; flex-direction: column; gap: 10px; max-width: 500px; }
-    input, textarea, button { padding: 10px; font-size: 16px; }
-    button { background-color: #b50000; color: white; border: none; cursor: pointer; }
-  </style>
-</head>
+<html lang='pt-BR'>
+<head><meta charset='UTF-8'><title>CNFVB - Confederação Nevense de Futebol de Base</title></head>
 <body>
-  <header>
-    <img src="logo_cnfvb.png" alt="CNFVB Logo" />
-    <h1>Confederação Nevense de Futebol de Várzea Base</h1>
-    <nav>
-      <a href="#sobre">Sobre</a>
-      <a href="#clubes">Clubes</a>
-      <a href="#competicoes">Competições</a>
-      <a href="#noticias">Notícias</a>
-      <a href="#inscricao">Inscrição</a>
-      <a href="#contato">Contato</a>
-    </nav>
-  </header>
-  <section id="sobre" class="section">
-    <h2>Sobre a CNFVB</h2>
-    <p>A Confederação Nevense de Futebol de Várzea Base (CNFVB) foi fundada com o objetivo de organizar, fomentar e desenvolver o futebol de base e várzea da cidade de Ribeirão das Neves e região metropolitana.</p>
-  </section>
-  <section id="clubes" class="section">
-    <h2>Clubes Filiados</h2>
-    <div class="clubes">
-      <div class="clube">
-        <img src="fcm_logo.png" alt="Futebol Clube Minas">
-        <p>Futebol Clube Minas</p>
-      </div>
-      <div class="clube">
-        <img src="amigosdavila_logo.png" alt="Amigos da Vila FC">
-        <p>Amigos da Vila Futebol Clube</p>
-      </div>
-      <div class="clube">
-        <img src="deportivoneves_logo.png" alt="Deportivo Neves EC">
-        <p>Deportivo Neves Esporte Clube</p>
-      </div>
-    </div>
-  </section>
-  <section id="competicoes" class="section">
-    <h2>Competições</h2>
-    <ul>
-      <li><a href="#">Campeonato Nevense Sub-13</a></li>
-      <li><a href="#">Campeonato Nevense Sub-15</a></li>
-      <li><a href="#">Campeonato Nevense Sub-17</a></li>
-      <li><a href="#">Copa CNFVB</a></li>
-    </ul>
-  </section>
-  <section id="noticias" class="section">
-    <h2>Notícias</h2>
-    <ul>
-      <li><strong>05/07/2025:</strong> Início do Campeonato Sub-15 será dia 12 de julho.</li>
-      <li><strong>01/07/2025:</strong> CNFVB anuncia novo patrocinador para a Copa CNFVB.</li>
-    </ul>
-  </section>
-  <section id="inscricao" class="section">
-    <h2>Inscrição de Equipes</h2>
-    <form onsubmit="event.preventDefault(); alert('Inscrição enviada com sucesso!');">
-      <input type="text" placeholder="Nome da equipe" required />
-      <input type="email" placeholder="E-mail de contato" required />
-      <textarea placeholder="Informações adicionais"></textarea>
-      <button type="submit">Enviar Inscrição</button>
-    </form>
-  </section>
-  <section id="contato" class="section">
-    <h2>Contato</h2>
-    <p>Email: <a href="mailto:cnfvb.oficial@gmail.com">cnfvb.oficial@gmail.com</a></p>
-    <p>Instagram: <a href="https://instagram.com/cnfvb" target="_blank">@cnfvb</a></p>
-  </section>
-  <footer>
-    <p>&copy; 2025 CNFVB - Todos os direitos reservados.</p>
-    <div class="social">
-      <a href="https://instagram.com/cnfvb" target="_blank">Instagram</a>
-      <a href="mailto:cnfvb.oficial@gmail.com">E-mail</a>
-    </div>
-  </footer>
+<h1>Bem-vindo à CNFVB</h1>
+<!-- Carrossel de Notícias -->
+<!-- Campeonatos em Destaque -->
 </body>
 </html>
